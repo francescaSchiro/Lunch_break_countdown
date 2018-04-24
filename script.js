@@ -1,28 +1,4 @@
-                                //calcola tempo attuale, tempo del pranzo e tempo che manca al pranzo. converti in h:m:s da ms.
-// var pranzo = new Date()
-// var msCheMancanoAlPranzo = pranzo.setHours(15,30) - new Date()     //
 
-//             // funzione che converte i ms in tempo
-// // function msToTime(msDurata) {                               
-// //     var millisecondi = parseInt((msDurata%1000)/100)
-// //     var secondi = parseInt((msDurata/1000)%60)
-// //     var minuti = parseInt((msDurata/(1000*60))%60)
-// //     var ore = parseInt((msDurata/(1000*60*60))%24);
- 
-// //     ore = (ore < 10) ? "0" + ore : ore;
-// //     minuti = (minuti < 10) ? "0" + minuti : minuti;
-// //     secondi = (secondi < 10) ? "0" + secondi : secondi;
- 
-// //     return ore + ":" + minuti + ":" + secondi ;
-// // }
-
-// //stampa i ms che mancano al pranzo convertiti in ore, min, e secondi grazie alla funzione richiamata qui sopra
-// var tempoAlPranzo = msToTime(msCheMancanoAlPranzo)
-
-// //------
-
-// var findOutButton = document.getElementById("findOut")
-// var timeUpdated = document.getElementById("timeLeft")
 
 // var a 
 // function text(){
@@ -41,14 +17,8 @@
 // }
 // }
 
-// //al click stampami il tempoAlPranzo
-// findOutButton.addEventListener('click', function(e) {
-//     text()
-//     console.log(a)
-//     timeUpdated.textContent = tempoAlPranzo + a
-// })
 
-//*********************************************** JAGA *************************************************
+//************************************************************************************************
 
 var timeElement = document.getElementById("timeLeft")  // chiamo in var gli elementi dell'html con l'id che mi interessa
 var buttonUpdate = document.getElementById("findOut")
